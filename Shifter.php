@@ -4,7 +4,7 @@ namespace Sleepness;
 
 class Shifter
 {
-    public function fromDto($domain, $dto)
+    public function fromDto($dto, $domain)
     {
         $domainFiller = function($domainObject, $dto) {
             $fetcher = function($object) {
